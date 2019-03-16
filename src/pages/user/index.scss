@@ -1,0 +1,123 @@
+.my{
+    .hd{
+        display: flex;
+        align-items: center;
+        height: 1.66rem;
+        background: url("./img/bg.png") center 0 #f37d0f;
+        background-size: auto 100%;
+        .avatar{
+            height: 1rem;
+            margin-left: .35rem;
+            padding: .06rem;
+            background-color: rgba(255,255,255,0.2);
+            border-radius: 50%;
+            img{
+                width: .88rem;
+                height: .88rem;
+            }
+        }
+        .login{
+            margin-left: .1rem;
+            color: #ffffff;
+            font-size: .24rem;
+            font-weight: bold;
+        }
+    }
+    .orders{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: .84rem;
+        padding: 0 .6rem 0 .35rem;
+        border-bottom: 1px solid #d9d9d9;
+        .title{
+            font-size: .28rem;
+        }
+        .all_orders{
+
+            a{
+                font-size: .24rem;
+                i{
+                    margin-top: -0.16rem;
+                }
+
+            }
+        }
+    }
+    .order_nav{
+        height: 1.8rem;
+        background-color: #fff;
+        ul{
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            li{
+                height: 100%;
+                a{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100%;
+                    .icon{
+                        height: .48rem;
+                        width:.48rem;
+                        margin-bottom: .1rem;
+                        img{
+                            height: 100%;
+                        }
+                    }
+                    span{
+                        font-size: .22rem;
+                    }
+                }
+            }
+        }
+    }
+    .spacing{
+        height: .2rem;
+	background-color:#f5f5f5;
+    }
+    .items{
+
+        li{
+            position: relative;
+            height: 1.1rem;
+            background: url("./img/1.png") no-repeat 0.34rem 0.31rem;
+            background-size: .48rem;
+	    line-height: 1.1rem;
+            a {
+                margin-left: 1.16rem;
+                height: 100%;
+                font-size: .28rem;
+                i{
+                    margin-top: -.54rem;
+                }
+            }
+        }
+        .i_wallet{
+            background-image: url("./img/2.png");
+        }
+        .i_service{
+            background-image: url("./img/3.png");
+        }
+        .i_mihome{
+            background-image: url("./img/4.png"); 
+        }
+        .i_fcode{
+            background-image: url("./img/5.png");
+        }
+        .i_settings{
+            background-image: url("./img/6.png");
+        }
+        .i_member>a,.i_service>a {
+            border-bottom: 1px solid #d9d9d9;
+        }
+    }
+    .s_bottom {
+        height: .6rem;
+	background-color:#f5f5f5;
+    }
+}
