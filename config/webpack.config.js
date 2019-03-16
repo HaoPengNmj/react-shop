@@ -174,6 +174,7 @@ module.exports = function(webpackEnv) {
       minimize: isEnvProduction,
       minimizer: [
         // This is only used in production mode
+        //用来压缩的
         new TerserPlugin({
           terserOptions: {
             parse: {
@@ -236,6 +237,7 @@ module.exports = function(webpackEnv) {
       // Automatically split vendor and commons
       // https://twitter.com/wSokra/status/969633336732905474
       // https://medium.com/webpack/webpack-4-code-splitting-chunk-graph-and-the-splitchunks-optimization-be739a861366
+      //分割公共代码的
       splitChunks: {
         chunks: 'all',
         name: false,
